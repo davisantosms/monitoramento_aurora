@@ -1,0 +1,13 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--fm);
+    font-family: var(--fm-alt);
+    font-weight: 100;
+}
+
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 20px;
+}
