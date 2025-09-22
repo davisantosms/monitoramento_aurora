@@ -1,0 +1,254 @@
+.section2{
+  background: var(--cor-amarelo);
+
+  height: 100vh;
+  padding: 50px;
+  
+}
+
+
+.sobre{
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  padding-bottom: 100px;
+  color: white;
+
+}
+
+.geral{
+  display: flex;
+  justify-content: space-around;
+
+}
+
+
+
+
+
+.bloco1{
+  backdrop-filter: blur(10px);
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+  border:  1px var(--cor-borda) solid;
+  padding-top: 80px;
+  border-radius: 30px;
+  background-color: #161923;
+}
+
+.bloco1:hover i.bi-lightbulb{
+  transform: rotate(1deg) scale(1.3);
+  transition: 0.5s ease-in-out;
+}
+
+.bloco1:hover{
+  border-color: #fff;
+  transition: 1.5s ease-in;
+  text-shadow: 0 0 100px #eeeeee;
+}
+
+
+.bloco1 i.bi-lightbulb{
+  width: 60px;
+  height: 60px;
+  /* Centralização */
+  margin: 0 auto 16px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #FF7043 0%, #FFD54F 100%);
+  border-radius: 50px;  
+}
+
+.bloco1 h1{
+color: white;
+display: flex;
+justify-content: center;
+padding-top: 10px;
+}
+
+
+.bloco1 p{
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-bottom: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+
+
+
+
+
+.bloco2{
+  backdrop-filter: blur(10px);
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+  border:  1px var(--cor-borda) solid;
+  padding-top: 80px;
+  border-radius: 30px;
+  background-color: #161923;
+}
+.bloco2:hover i.bi-award{
+  transform: rotate(1deg) scale(1.3);
+  transition: 0.5s ease-in-out;
+}
+
+.bloco2:hover{
+  border-color: #ffffff;
+  transition: 1s ease-in;
+  text-shadow: 0 0 100px #eeeeee;
+}
+
+.bloco2 i.bi-award{
+  width: 60px;
+  height: 60px;
+  /* Centralização */
+  margin: 0 auto 16px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #FF7043 0%, #FFD54F 100%);
+  border-radius: 50px;  
+}
+
+.bloco2 h1{
+color: white;
+display: flex;
+justify-content: center;
+padding-top: 10px;
+}
+
+
+.bloco2 p{
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-bottom: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+
+
+
+
+.bloco3{
+  backdrop-filter: blur(10px);
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+  border:  1px var(--cor-borda) solid;
+  padding-top: 80px;
+  border-radius: 30px;
+  background-color: #161923;
+}
+
+.bloco3:hover i.bi-discord{
+  transform: rotate(1deg) scale(1.3);
+  transition: 0.5s ease-in-out;
+}
+
+.bloco3:hover{
+  border-color: #ffffff;
+  transition: 1s ease-in;
+  text-shadow: 0 0 100px #eeeeee;
+}
+
+.bloco3 i.bi-discord{
+  width: 60px;
+  height: 60px;
+  /* Centralização */
+  margin: 0 auto 16px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #FF7043 0%, #FFD54F 100%);
+  border-radius: 50px;  
+}
+
+
+.bloco3 h1{
+color: white;
+display: flex;
+justify-content: center;
+padding-top: 10px;
+}
+
+
+.bloco3 p{
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-bottom: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+
+
+
+.bloco4{
+  backdrop-filter: blur(10px);
+  height: 300px;
+  width: 400px;
+  overflow: hidden;
+  border:  1px var(--cor-borda) solid;
+  padding-top: 80px;
+  border-radius: 30px;
+  background-color: #161923;
+}
+
+.bloco4:hover i.bi-shield-check{
+  transform: rotate(1deg) scale(1.3);
+  transition: 0.5s ease-in-out;
+}
+
+.bloco4:hover{
+  border-color: #ffffff;
+  transition: 1s ease-in;
+  text-shadow: 0 0 100px #eeeeee;
+}
+
+.bloco4 i.bi-shield-check{
+  width: 60px;
+  height: 60px;
+  /* Centralização */
+  margin: 0 auto 16px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #FF7043 0%, #FFD54F 100%);
+  border-radius: 50px;  
+}
+
+.bloco4 h1{
+color: white;
+display: flex;
+justify-content: center;
+padding-top: 10px;
+}
+
+
+.bloco4 p{
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-bottom: 10px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+.sobre h1{
+  font-family: var(--fm-alt);
+    text-align: center;
+    font-size: 35px;
+}
